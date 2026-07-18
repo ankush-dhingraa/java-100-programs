@@ -17,6 +17,7 @@ public class SwapTwoNumbersWithoutUsingThirdVariable {
 
 
             /*
+            this is a best method
             using XOR because it can prevent from airthmetice overflow
 
             Why use it?
@@ -24,6 +25,7 @@ public class SwapTwoNumbersWithoutUsingThirdVariable {
             Because it never physically increases the size of the number,
             it can never cause an integer overflow error, making it incredibly safe and 
             lightning-fast for low-level systems programming. 
+
             */
 
             // firstNum = firstNum ^ secondNum;
